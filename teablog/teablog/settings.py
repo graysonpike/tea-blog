@@ -1,5 +1,5 @@
 import os
-import config
+from . import config
 
 """
 Django settings for teablog project.
