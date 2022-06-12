@@ -1,3 +1,6 @@
+# Config file
+teablog/teablog/config.py
+
 # Static Root
 teablog/static
 
