@@ -1,0 +1,51 @@
+{% extends "teablog/base.html" %}
+
+{% block style_links %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'teablog/css/landing.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container landing-page">
+	<div class="header">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>nyc tea blog <span class="emoji-logo"> 🍵</span></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="tagline">a blog exploring the tea houses of New York City</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 about">
+			<h2>on a mission to experience every tea house in new york city</h2>
+			<p>This blog is run by Grayson Pike and Devika Kumar. Together we hope to visit and review every tea house in New York City.</p>
+		</div>
+		<div class="col-sm-6 images">
+			<div class="row flex-nowrap">
+				<div class="col grid-square">
+					<img class="grid-image" src="{% static 'teablog/img/tea-ceremony-cropped-600px.jpg' %}" />
+				</div>
+				<div class="col grid-square">
+					<img class="grid-image" src="{% static 'teablog/img/kettl-tea-dining-room-cropped-600px.jpg' %}" />
+				</div>
+			</div>
+			<div class="row flex-nowrap">
+				<div class="col grid-square">
+					<img class="grid-image" src="{% static 'teablog/img/prince-tea-house-cropped-600px.jpg' %}" />
+				</div>
+				<div class="col grid-square">
+					<img class="grid-image" src="{% static 'teablog/img/brooklyn-puerh-cropped-600px.jpg' %}" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

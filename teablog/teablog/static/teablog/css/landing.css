@@ -1,0 +1,22 @@
+.tagline {
+    font-size: 32px;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.emoji-logo {
+    font-size: 80px;
+    white-space: pre;
+}
+
+.grid-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-square {
+    padding: 15px;
+}
