@@ -11,10 +11,14 @@ h2 {
 }
 
 p {
-	font-family: 'Joan', serif;
-	font-size: 18px;
+	font-family: 'Kavivanar', serif;
+	font-size: 22px;
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+.tagline {
+	font-size: 32px;
 }
 
 @media (max-width: 992px){
@@ -22,7 +26,10 @@ p {
 		font-size: 80px;
 	}
 	h2 {
-		font-size: 28px;
+		font-size: 32px;
+	}
+	.tagline {
+		font-size: 26px;
 	}
 }
 
@@ -31,7 +38,32 @@ p {
 		font-size: 60px;
 	}
 	h2 {
+		font-size: 30px;
+	}
+	.logo {
+		font-size: 60px;
+	}
+	.tagline {
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 576px) {
+    h1 {
+		font-size: 40px;
+	}
+	h2 {
 		font-size: 28px;
+	}
+	.logo {
+		font-size: 40px;
+		font-size: 11vw;
+	}
+	.tagline {
+		font-size: 4vw;
+	}
+	p {
+		font-size: 18px;
 	}
 }
 
