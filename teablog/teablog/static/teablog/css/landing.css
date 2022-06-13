@@ -10,7 +10,11 @@
 
 .header {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.landing-content {
+    margin-top: 50px;
 }
 
 .emoji-logo {
@@ -20,7 +24,6 @@
 
 .grid-image {
     width: 100%;
-    border-radius: 10px;
 }
 
 .grid-square {
