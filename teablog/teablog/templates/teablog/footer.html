@@ -1,0 +1,12 @@
+{% block style_links %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'teablog/css/footer.css' %}" />
+{% endblock %}
+
+<div class="container footer">
+	<div class="row">
+		<div class="col-12 footer">
+			<p>&copy; Copyright Grayson Pike and Devika Kumar {% now "Y" %}</p>
+		</div>
+	</div>
+</div>
