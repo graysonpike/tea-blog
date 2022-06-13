@@ -24,6 +24,6 @@ p {
 }
 
 body {
-  background-size: 1cm 1cm;
+  background-size: 0.5cm 0.5cm;
   background-image: radial-gradient(circle, #bababa 1px, rgba(0, 0, 0, 0) 1px);
 }
