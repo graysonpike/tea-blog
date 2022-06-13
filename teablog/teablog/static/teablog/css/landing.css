@@ -2,12 +2,6 @@
     font-size: 32px;
 }
 
-@media (max-width: 992px) {
-    .tagline {
-        font-size: 24px;
-    }
-}
-
 .header {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -28,4 +22,13 @@
 
 .grid-square {
     padding: 15px;
+}
+
+@media (max-width: 992px) {
+    .tagline {
+        font-size: 24px;
+    }
+    .header {
+        padding-right: 25%;
+    }
 }
