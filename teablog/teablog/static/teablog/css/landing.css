@@ -2,13 +2,19 @@
     font-size: 32px;
 }
 
+@media (max-width: 992px) {
+    .tagline {
+        font-size: 24px;
+    }
+}
+
 .header {
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
 .emoji-logo {
-    font-size: 80px;
+    font-size: 0.8em;
     white-space: pre;
 }
 
