@@ -6,11 +6,10 @@ BASE_META_KEYWORDS = "nyc, tea, blog, reviews, matcha, green tea"
 
 
 def record_pageview(request):
-    ip_from_proxy = request.META.get('REMOTE_ADDR')
+    # Note: HTTP_X_FORWARDED_FOR is not present in headers given by the Django development server
     http_x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     PageView.objects.create(
-        ip_from_proxy=ip_from_proxy,
-        http_x_forwarded_for=http_x_forwarded_for,
+        ip=http_x_forwarded_for,
         path=request.path
     )
 
