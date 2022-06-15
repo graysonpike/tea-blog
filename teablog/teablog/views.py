@@ -7,9 +7,9 @@ BASE_META_KEYWORDS = "nyc, tea, blog, reviews, matcha, green tea"
 
 def record_pageview(request):
     # Note: HTTP_X_FORWARDED_FOR is not present in headers given by the Django development server
-    http_x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     PageView.objects.create(
-        ip=http_x_forwarded_for,
+        ip=request.META.get('HTTP_X_FORWARDED_FOR'),
+        user_agent=request.META.get('HTTP_USER_AGENT'),
         path=request.path
     )
 
