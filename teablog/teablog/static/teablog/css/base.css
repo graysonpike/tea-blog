@@ -10,9 +10,26 @@ h2 {
 	font-size: 38px;
 }
 
-p, li {
+p {
 	font-family: 'Kavivanar', serif;
 	font-size: 22px;
+}
+
+.content li p {
+    text-align: left;
+    text-justify: none;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor:pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor:pointer;
 }
 
 .content p {
@@ -87,4 +104,8 @@ img {
 	border: 1.5px solid gray;
 	box-shadow: 2px 2px 6px gray;
 	border-radius: 8px;
+}
+
+.content img {
+    width: 100%;
 }

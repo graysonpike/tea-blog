@@ -9,8 +9,8 @@
 
 {% block content %}
 
-<div class="container">
-	<div class="row content landing-content">
+<div class="container content">
+	<div class="row">
 		<div class="col-sm-6 about">
 			<h2>we're on a mission to experience every tea house in new york city</h2>
 			<p>This blog is run by Grayson Pike and Devika Kumar. Together we hope to visit and review every tea house in New York City.</p>
@@ -34,6 +34,23 @@
 			</div>
 		</div>
 	</div>
+    <div class="row posts-list-title">
+		<div class="col-sm-12">
+			<h2>Tea House Reviews</h2>
+		</div>
+	</div>
+    <a class="nostyle" href="{% url 'alices-tea-cup' %}">
+        <div class="row review-listing flex-nowrap">
+            <div class="col">
+                <img src="{% static 'teablog/img/alices_tea_cup_chapter_1_outside.jpg' %}" />
+                <div class="post-name">
+                    <h3>Alice's Tea Cup</h3>
+                    <br/>
+                    <p>102 W 73rd St, Upper West Side</p>
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 
 {% endblock %}

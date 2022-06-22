@@ -9,3 +9,28 @@
 h2 {
     padding-bottom: 18px;
 }
+
+.posts-list-title {
+    margin-top: 40px;
+}
+
+.review-listing img, .review-listing p, .review-listing h3 {
+    display: inline;
+}
+
+.review-listing {
+    margin-top: 30px;
+}
+
+.review-listing .post-name {
+    display: inline;
+    margin-left: 7%;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.review-listing img {
+    width: 50%;
+    max-width: 200px;
+    float: left;
+}
