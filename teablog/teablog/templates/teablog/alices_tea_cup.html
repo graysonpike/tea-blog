@@ -1,0 +1,64 @@
+{% extends "teablog/base.html" %}
+
+{% block style_links %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'teablog/css/post.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container content">
+	<div class="row title-section">
+		<div class="col-sm-12 about">
+			<h2>Alice's Tea Cup</h2>
+			<h3>102 W 73rd St, Upper West Side</h3>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-sm-6">
+			<h3>Vibe</h3>
+            <p>Alice’s Tea Cup is named after Alice’s Adventures in Wonderland, the classic 1865 novel by Lewis Carroll. Alice’s honors this theme with a colorful fantasy-decorated interior and quirky vintage tea sets. Hand-painted murals of Wonderland characters decorate the walls and tables are fashioned from old foot-pedal sewing machines.</p>
+            <p>We’ve found Alice’s Tea Cup to be a cozy spot for catching up with a friend or ducking in for a cute date. So far, we’ve enjoyed various tea blends, scones, and desserts, but hope to have a full afternoon tea service in the future. While Alice’s may not be the fanciest, the service and fare makes it feel classic and inviting. We recommend Alice’s for tasty teas and timeless vibes.</p>
+            <h3>Service</h3>
+            <p>Alice’s location on 73rd Street feels hospitable and welcoming, even with only a couple of service staff. Their staff have always been friendly and accommodating, and we’ve never felt pressured to leave our table early, as some New York cafes might do. This makes Alice’s the ideal place to have long conversations with friends.</p>
+            <h3>Tea Blends</h3>
+            <p>Alice’s boasts an impressive collection of flavored tea blends. Each blend is described by flavors and notes, but information about sourcing or season is not included. Their flavored Black and White teas are most unique to Alice’s. However, we suggest getting teas like Pu-erh elsewhere.</p>
+            <p>We are especially fans of their namesake Alice’s Tea Blend, as well as the Empress Rajini Blend, Lavender Earl Grey, and Apricot Brandy blends. We could tell that Alice’s took care to properly steep each tea and have never received any overly-astringent or harsh teas.</p>
+            <h3>Food + Bites</h3>
+            <p>Two scones with butter and berry jam are included with the $16 Tea and Scones combo, our usual order. Alice’s scones are great all-around, and come in a variety of flavors such as Pumpkin, Mixed Berry, and Buttermilk. Seasonal scone flavors are also available, such as the seasonal White Chocolate Chip Butterscotch. Vegan scones only appear to be available occasionally as seasonal options.</p>
+            <p>Full high-tea services and entree-type items are also available, although we haven’t had the chance to try them yet.</p>
+            <h3>Accoutrements</h3>
+            <p>True to the Alice in Wonderland theme, tea is served in colorful British-style ceramic pots, large enough to hold a generous amount of tea for one person and stay warm for long. Alice’s cups and dishes are a collection of artfully mismatched and assorted traditional tea cups from various vintage sets. Like the tea service, food is served on assorted vintage dishware.</p>
+            <h3>Good For</h3>
+            <ul>
+                <li>Casual date</li>
+                <li>Catching up with a friend</li>
+                <li>No reservation required + good walk-in availability</li>
+                <li>Large groups, birthday parties (with reservation)</li>
+            </ul>
+		</div>
+        <div class="col-sm-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="{% static 'teablog/img/alices_tea_cup_chapter_1_outside.jpg' %}" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="{% static 'teablog/img/alices_tea_cup_scones.jpg' %}" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="{% static 'teablog/img/alices_tea_cup_finger_sandwiches.jpg' %}" />
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

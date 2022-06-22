@@ -19,5 +19,6 @@ from teablog import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.landing, name="landing")
+    path('', views.landing, name="landing"),
+    path('alices-tea-cup/', views.alices_tea_cup, name="alices-tea-cup")
 ]

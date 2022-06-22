@@ -10,10 +10,13 @@ h2 {
 	font-size: 38px;
 }
 
-p {
+p, li {
 	font-family: 'Kavivanar', serif;
 	font-size: 22px;
-	text-align: justify;
+}
+
+.content p {
+    text-align: justify;
 	text-justify: inter-word;
 }
 
